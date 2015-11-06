@@ -7,25 +7,7 @@ var db      = require('../data/index.js');
 var file    = require('../feature/fs.js');
 var queryString = require('../feature/queryString.js');
 
-
 var data = [];
-
-//read page (using on dev)
-// router.get('/', (req, res, next) => {
-
-// 	if( req.query.page !== undefined && req.query.data !== undefined){
-
-// 		let page	 = req.query.page;  // using jade page
-// 		let data	 = req.query.data;  // using data
-// 		let appbar = db.appbar || {}; // appbar data
-//     let title  = page + '/' + data;
-
-//     // console.log('db[data]', db[data]);
-
-// 		res.render( page, { appbar: appbar, data: db[data], page: page }); // output, title: title
-
-// 	}else{ return next('頁面不存在'); }
-// });
 
 //read page (using on dev)
 router.get('/', (req, res, next) => {
@@ -86,7 +68,7 @@ router.get('/_admin', (req, res, next) => {
 });
 
 router.get('/:page', (req, res, next) => {
-  res.render(req.params.page.replace(/.html/, ''))
+  res.render(req.params.page.replace(/.html/, ''));
 });
 
 module.exports = router;
