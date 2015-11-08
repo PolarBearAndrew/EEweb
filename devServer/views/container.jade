@@ -5,12 +5,13 @@ head
 	title EEweb
 	
 	link(rel='stylesheet', type='text/css', href='/semantic-ui/semantic.css')
+	link(rel='stylesheet', type='text/css', href='/asset/stylesheets/reset.css')
 	block styleSheet
 	
 body
 	#navbar.ui.stackable.menu.container
 		a(href="/home.html").active.item
-			//- img.ui.image(src='./asset/images/icon.png', height="70px", style="position:absolute; top:-12px; left:-20px")
+			//- img.ui.image(src='./asset/images/icon.png')
 			| EEWEB
 		a(href="/home.html").item
 			i.home.icon
@@ -24,7 +25,6 @@ body
 		a(href="/record.html").item
 				i.history.icon
 				| RECORDS
-				
 		.right.menu
 			a(href="/em").item
 				i.linkify.icon
