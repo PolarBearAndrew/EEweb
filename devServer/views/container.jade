@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title EEweb
+	
+	link(rel='stylesheet', type='text/css', href='/semantic-ui/semantic.css')
+	block styleSheet
+	
+body
+	#navbar.ui.stackable.menu.container
+		a(href="/home.html").active.item
+			//- img.ui.image(src='./asset/images/icon.png', height="70px", style="position:absolute; top:-12px; left:-20px")
+			| EEWEB
+		a(href="/home.html").item
+			i.home.icon
+			| HOME
+		a(href="/intro.html").item
+				i.empty.star.icon
+				| INTRO
+		a(href="/book.html").item
+				i.book.icon
+				| LIBRARY
+		a(href="/record.html").item
+				i.history.icon
+				| RECORDS
+				
+		.right.menu
+			a(href="/em").item
+				i.linkify.icon
+				| LINKS
+	block content
+	
+	script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+	script(src='/semantic-ui/semantic.js')
+	script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js')
+	block javaScript
