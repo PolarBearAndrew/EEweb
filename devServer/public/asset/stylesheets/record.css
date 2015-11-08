@@ -4,3 +4,8 @@
   top: 15%;
   left: 83%;
 }
+
+/* line 6, ../sass/record.sass */
+.booksWidth {
+  width: 200px;
+}

@@ -5,9 +5,9 @@ block styleSheet
 
 block content
 	.ui.container
-		h4.ui.horizontal.divider.header
-			i.tag.icon
-			| Our Teacher
+		//- h4.ui.horizontal.divider.header
+			//- i.tag.icon
+			//- | Description
 		.ui.tall.stacked.segment(style='min-height:200px')
 			.teacher
 				img.ui.small.rounded.image(src='http://pgw.udn.com.tw/gw/photo.php?u=http://uc.udn.com.tw/photo/2015/09/28/6/1355089.jpg&sl=W&fw=450')
@@ -40,11 +40,41 @@ block content
 						.header 互動式教學
 						.description
 							| 透過課前、課後問題討論與主題作業，訓練學生多元思考，培養分析、歸納、聯想、批判、統整知識的能力。 
-
+				.item
+					i.book.icon
+					.content
+						.header 指定用書 1
+						.description
+							| Dragon’s Eggs /J. M. Newsome Cambridge English Readers (Level 5) 
+				.item
+					i.book.icon
+					.content
+						.header 指定用書 2
+						.description
+							| Nelson's Dream/ J. M. Newsome Cambridge English Readers (Level 6)  
+			br
+			// - 課程介紹 end
 			
 		h4.ui.horizontal.divider.header
-			i.tag.icon
-			| Class Description
+			i.trophy.icon
+			| Feature Records
+
+		- for( var i = 0; i < 4; i++ )
+			.ui.relaxed.divided.items
+				.item
+					.ui.image.booksWidth
+						img(src='/asset/images/forDemo.jpg')
+					.content
+						h1 Dragon's Egg
+						.meta
+						a.ui.blue.image.label
+							i.user.icon
+							|   AndrewChen
+							.detail Student
+						.description
+							h4 As the sky brightened, the queue stretched to the end of this crowded street and around the corner. There were people of all ages: young women in jeans and T-shirts, older men and women in more traditional Burmese longyis, all clutching their pink national identity cards and white voter registration documents.
+							h4 The one thing nearly all of them have in common is that they have never before had the opportunity to elect a new government.
+							h4 There have been reports of irregularities, intimidation and people being left off official voter lists, but, at this polling station, we saw no problems, with officials calmly explaining the procedure for filling out ballot papers and placing them in the sealed boxes.
 
 block javaScript
 	//- 在這邊寫上你需要用的 js
