@@ -59,22 +59,25 @@ block content
 			i.trophy.icon
 			| Feature Records
 
-		- for( var i = 0; i < 4; i++ )
+		- var features = data.features;
+		- for( var i = 0; i < features.length; i++ )
+			- var val = features[i];
 			.ui.relaxed.divided.items
 				.item
 					.ui.image.booksWidth
-						img(src='/asset/images/forDemo.jpg')
+						img(src=val.img)
 					.content
-						h1 Dragon's Egg
+						h1= val.title
 						.meta
-						a.ui.blue.image.label
+						a.ui.image.label(class=val.tag.color)
 							i.user.icon
-							|   AndrewChen
+								= '      ' + val.tag.name
 							.detail Student
-						.description
-							h4 As the sky brightened, the queue stretched to the end of this crowded street and around the corner. There were people of all ages: young women in jeans and T-shirts, older men and women in more traditional Burmese longyis, all clutching their pink national identity cards and white voter registration documents.
-							h4 The one thing nearly all of them have in common is that they have never before had the opportunity to elect a new government.
-							h4 There have been reports of irregularities, intimidation and people being left off official voter lists, but, at this polling station, we saw no problems, with officials calmly explaining the procedure for filling out ballot papers and placing them in the sealed boxes.
+						.description(style='font-size:1.3em')
+							- for( var a = 0; a < val.article.length; a++)
+								p= val.article[a]
+		
+		//- include footer
 
 block javaScript
 	//- 在這邊寫上你需要用的 js

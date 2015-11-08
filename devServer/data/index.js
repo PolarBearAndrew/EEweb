@@ -1,6 +1,6 @@
 var data = {};
 
-data.home = require('./home.js');
+data.records = require('./records.js');
 
 // module.exports = data;
 module.exports = data;
