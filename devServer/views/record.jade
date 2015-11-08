@@ -1,0 +1,83 @@
+extends container
+
+block styleSheet
+	link(rel="stylesheet", href="/asset/stylesheets/record.css")
+
+block content
+	.ui.container
+		//- h4.ui.horizontal.divider.header
+			//- i.tag.icon
+			//- | Description
+		.ui.tall.stacked.segment(style='min-height:200px')
+			.teacher
+				img.ui.small.rounded.image(src='http://pgw.udn.com.tw/gw/photo.php?u=http://uc.udn.com.tw/photo/2015/09/28/6/1355089.jpg&sl=W&fw=450')
+			h2.ui
+				| 廣泛閱讀與國際關懷(博通-生涯發展類) 
+				br
+				| READNING AND INTERNATIONAL HUMANITARIANISM 
+			a.ui.blue.tag.label 1041學期
+			a.ui.teal.tag.label 1CC1340T
+			a.ui.orange.tag.label F班
+			a.ui.purple.tag.label 第1冊
+			.ui.list
+				.item
+					i.flag.icon
+					.content
+						.header 主題式引導教學
+						.description
+							| 透過主題式引導、情境氛圍塑造、英文故事讀本閱讀、影片賞析、國際學生/志工交流與專題演講，讓學生回顧以往的認知經驗，
+							br
+							| 引發學習興趣，增進同理心與感受力。 
+				.item
+					i.help.icon
+					.content
+						.header 認識與反思
+						.description
+							| 透過主題課程，引導學生對英文廣泛閱讀及普世所關切的重要議題有更深刻的認識與反思。 
+				.item
+					i.smile.icon
+					.content
+						.header 互動式教學
+						.description
+							| 透過課前、課後問題討論與主題作業，訓練學生多元思考，培養分析、歸納、聯想、批判、統整知識的能力。 
+				.item
+					i.book.icon
+					.content
+						.header 指定用書 1
+						.description
+							| Dragon’s Eggs /J. M. Newsome Cambridge English Readers (Level 5) 
+				.item
+					i.book.icon
+					.content
+						.header 指定用書 2
+						.description
+							| Nelson's Dream/ J. M. Newsome Cambridge English Readers (Level 6)  
+			br
+			// - 課程介紹 end
+			
+		h4.ui.horizontal.divider.header
+			i.trophy.icon
+			| Feature Records
+
+		- var features = data.features;
+		- for( var i = 0; i < features.length; i++ )
+			- var val = features[i];
+			.ui.relaxed.divided.items
+				.item
+					.ui.image.booksWidth
+						img(src=val.img)
+					.content
+						h1= val.title
+						.meta
+						a.ui.image.label(class=val.tag.color)
+							i.user.icon
+								= '      ' + val.tag.name
+							.detail Student
+						.description(style='font-size:1.3em')
+							- for( var a = 0; a < val.article.length; a++)
+								p= val.article[a]
+		
+		//- include footer
+
+block javaScript
+	//- 在這邊寫上你需要用的 js

@@ -1,0 +1,11 @@
+/* line 1, ../sass/record.sass */
+.teacher {
+  position: absolute;
+  top: 15%;
+  left: 83%;
+}
+
+/* line 6, ../sass/record.sass */
+.booksWidth {
+  width: 200px;
+}
