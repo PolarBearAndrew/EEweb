@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "reset.css",
+  "sources": [
+    "reset.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAEA,IAAI,CAAC;EACH,OAAO,EAAE,IAAK;EACd,gBAAgB,EAAE,OAAQ,GAFtB",
+  "names": []
+}
