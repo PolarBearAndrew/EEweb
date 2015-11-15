@@ -8,16 +8,18 @@ block content
 			- var books = data.books;
 			- for( var i = 0; i < books.length; i ++ )
 				- var book = books[i];
-				.card.red
-					.content
-						.header= book.title
-					a.image
-						img.ui.image.small(src=book.img)		
-					//- .extra.content
-					.content
-						.meta
-							span.right.floated.time= book.status
-							span.category= book.series + ' / ' + book.id
-					.ui.bottom.attached.button
-						i.print.icon
-						|       列印借書單
+				//- for test
+				- if(book.img != './asset/images/books/.jpg') 
+					.card.red
+						.content
+							.header= book.title
+						a.image
+							img.ui.image.small(src=book.img style='max-height:410px')		
+						//- .extra.content
+						.content
+							.meta
+								span.right.floated.time= book.status
+								span.category= book.series + ' / ' + book.id
+						.ui.bottom.attached.button
+							i.print.icon
+							|       列印借書單
