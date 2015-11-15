@@ -1,0 +1,21 @@
+extends container
+
+block content
+	include navBar
+	br
+	.ui.container
+		.ui.four.stackable.cards
+			- for( var i = 0; i < 10; i ++ )
+				.card.red
+					.content
+						.header The Jungle Book
+					a.image
+						img.ui.image.small(src='/asset/images/forDemo.jpg')		
+					//- .extra.content
+					.content
+						.meta
+							span.right.floated.time 借閱中
+							span.category O2-13
+					.ui.bottom.attached.button
+						i.add.icon
+						|       Like it
