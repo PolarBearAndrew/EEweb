@@ -1,0 +1,21 @@
+
+extends container
+	
+block styleSheet
+	link(rel="stylesheet", href="/asset/stylesheets/home.css")
+
+block content
+	.videoarea
+		video#video-background(autoplay='', loop='', poster='', muted='')
+			source(src='https://d3mlfyygrfdi2i.cloudfront.net/cc51/au-nz-4eva.mp4', type='video/mp4')
+	.cover
+		h1.ch 廣泛閱讀與國際關懷
+		h1.en READNING AND INTERNATIONAL HUMANITARIANISM
+		h1 
+			button.ui.green.big.button GET STARTED
+	footer
+		.ui.container
+			include footer
+
+block javaScript
+	//- 在這邊寫上你需要用的 js
