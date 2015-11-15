@@ -13,4 +13,8 @@ router.get('/record', (req, res, next) => {
 	res.render('record', { data: data.records });
 });
 
+router.get('/library', (req, res, next) => {
+	res.render('library', { data: data.library });
+});
+
 module.exports = router;
