@@ -7,7 +7,7 @@ var db      = require('../data/index.js');
 var file    = require('../feature/fs.js');
 var queryString = require('../feature/queryString.js');
 
-var data = [];
+var data = require('../data');
 
 //read page (using on dev)
 router.get('/', (req, res, next) => {

@@ -5,7 +5,7 @@ var list = [
   { page: 'home', data: '' },
   { page: 'intro', data: '' },
   { page: 'record', data: '' },
-  { page: 'library', data: '' },
+  { page: 'library', data: 'library' },
 ];
 
 module.exports = list;
