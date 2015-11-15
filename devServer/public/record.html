@@ -1,0 +1,27 @@
+<html lang="en"></html><head><meta charset="UTF-8"/><title>Error page</title></head><body><h1>/Users/andrew/Project/EEweb/devServer/views/record.jade:63
+    61| 			i.trophy.icon
+    62| 			| Feature Records
+  &gt; 63| 
+    64| 		- var features = data.features;
+    65| 		- for( var i = 0; i &lt; features.length; i++ )
+    66| 			- var val = features[i];
+
+Cannot read property 'length' of undefined</h1><h2></h2><pre>TypeError: /Users/andrew/Project/EEweb/devServer/views/record.jade:63
+    61| 			i.trophy.icon
+    62| 			| Feature Records
+  &gt; 63| 
+    64| 		- var features = data.features;
+    65| 		- for( var i = 0; i &lt; features.length; i++ )
+    66| 			- var val = features[i];
+
+Cannot read property 'length' of undefined
+    at eval (eval at &lt;anonymous&gt; (/Users/andrew/Project/EEweb/devServer/node_modules/jade/lib/index.js:218:8), &lt;anonymous&gt;:439:29)
+    at eval (eval at &lt;anonymous&gt; (/Users/andrew/Project/EEweb/devServer/node_modules/jade/lib/index.js:218:8), &lt;anonymous&gt;:884:22)
+    at res (/Users/andrew/Project/EEweb/devServer/node_modules/jade/lib/index.js:219:38)
+    at Object.exports.renderFile (/Users/andrew/Project/EEweb/devServer/node_modules/jade/lib/index.js:380:38)
+    at View.exports.renderFile [as engine] (/Users/andrew/Project/EEweb/devServer/node_modules/jade/lib/index.js:370:21)
+    at View.render (/Users/andrew/Project/EEweb/devServer/node_modules/express/lib/view.js:93:8)
+    at EventEmitter.app.render (/Users/andrew/Project/EEweb/devServer/node_modules/express/lib/application.js:530:10)
+    at ServerResponse.res.render (/Users/andrew/Project/EEweb/devServer/node_modules/express/lib/response.js:933:7)
+    at router.post.list.forEach.name (/Users/andrew/Project/EEweb/devServer/routes/dev.js:23:9)
+    at Layer.handle [as handle_request] (/Users/andrew/Project/EEweb/devServer/node_modules/express/lib/router/layer.js:82:5)</pre></body>
