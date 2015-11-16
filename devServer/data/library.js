@@ -3,7 +3,7 @@ var data = {
 		{
 			id: 'OS-1',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_71.jpg',
 			title: 'Taxi of Terror',
 			status: '架上有書'
 		},
@@ -17,49 +17,49 @@ var data = {
 		{
 			id: 'OS-3',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_84.jpg',
 			title: 'Escape',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-1',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_83.jpg',
 			title: 'The Meaning of Gifts: Stories from Turkey',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-2',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_82.jpg',
 			title: 'Pocahontas',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-3',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_81.jpg',
 			title: 'Les Miserables',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-4',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_80.jpg',
 			title: 'The Coldest Place on Earth',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-5',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_79.jpg',
 			title: 'Ned Kelly: A True Story',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-6',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_78.jpg',
 			title: 'Sherlock Holmes: Two Plays',
 			status: '架上有書'
 		},
@@ -73,315 +73,315 @@ var data = {
 		{
 			id: 'O1-8',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_76.jpg',
 			title: 'A Ghost in Love and Other Plays',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-9',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_75.jpg',
 			title: 'Five Short Plays',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-10a',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_74.jpg',
 			title: 'The Phantom of the Opera',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-10b',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_74.jpg',
 			title: 'The Phantom of the Opera',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-11',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_73.jpg',
 			title: 'The Monkey’s Paw',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-12',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_72.jpg',
 			title: 'Under the Moon',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-13a',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_70.jpg',
 			title: 'The Elephant Man',
 			status: '架上有書'
 		},
 		{
 			id: 'O1-13b',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_70.jpg',
 			title: 'The Elephant Man',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-1',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_69.jpg',
 			title: 'Cries from the Heart: Stories from Around the World',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-2',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_68.jpg',
 			title: 'Changing Their Skies: Stories from Africa',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-3',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_67.jpg',
 			title: 'The Jungle Book',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-4',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_66.jpg',
 			title: 'Red Dog',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-5',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_65.jpg',
 			title: 'The Importance of Being Earnest',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-6',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_64.jpg',
 			title: 'Agatha Christie, Woman of Mystery',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-7',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_63.jpg',
 			title: 'One Thousand Dollars and other Plays',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-8',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_62.jpg',
 			title: 'Robinson Crusoe',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-9',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_61.jpg',
 			title: 'Songs from the Soul: Stories from Around the World',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-10',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_60.jpg',
 			title: 'The Love of a King ',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-11',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_59.jpg',
 			title: 'Sherlock Holmes: Short Stories',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-12',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_58.jpg',
 			title: 'The Piano',
 			status: '架上有書'
 		},
 		{
 			id: 'O2-13',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_57.jpg',
 			title: 'Voodoo Island',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-1',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_56.jpg',
 			title: 'Playing with Fire: Stories from the Pacific Rim',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-2',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_55.jpg',
 			title: 'Dancing with Strangers: Stories from Africa',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-3',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_54.jpg',
 			title: 'Leaving No Footprint: Stories from Asia',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-4',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_53.jpg',
 			title: 'A Midsummer Night’s Dream',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-5',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_52.jpg',
 			title: 'The Wind in the Willows',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-6',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_51.jpg',
 			title: 'The Long White Cloud: Stories from New Zealand',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-7',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_50.jpg',
 			title: 'Chemical Secret',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-8',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_49.jpg',
 			title: 'Wyatt’s Hurricane',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-9',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_48.jpg',
 			title: 'The Last Sherlock Holmes Story',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-10',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_47.jpg',
 			title: 'The Star Zoo',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-11',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_46.jpg',
 			title: 'Tales of Mystery and Imagination',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-12',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_45.jpg',
 			title: 'The Bronte Story',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-13',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_44.jpg',
 			title: 'Go, Lovely Rose: Short Stories',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-14',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_43.jpg',
 			title: 'The Picture of Dorian Gray',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-15',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_42.jpg',
 			title: 'A Christmas Carol',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-16a',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_41.jpg',
 			title: 'Skyjack!',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-16b',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_41.jpg',
 			title: 'Skyjack!',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-17',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_40.jpg',
 			title: 'The Secret Garden',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-18',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_39.jpg',
 			title: 'On the Edge',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-19',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_38.jpg',
 			title: 'The Call of the Wild',
 			status: '架上有書'
 		},
 		{
 			id: 'O3-20',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_37.jpg',
 			title: 'Rabbit-Proof Fence',
 			status: '架上有書'
 		},
 		{
 			id: 'O4-1',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_36.jpg',
 			title: 'The Price of Peace: Stories from Africa',
 			status: '架上有書'
 		},
 		{
 			id: 'O4-2',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_35.jpg',
 			title: 'Land of My Childhood: Stories from South Asia',
 			status: '架上有書'
 		},
 		{
 			id: 'O4-3',
 			series: 'Oxford 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_34.jpg',
 			title: 'The Big Sleep',
 			status: '架上有書'
 		},
@@ -395,21 +395,21 @@ var data = {
 		{
 			id: 'CS-2',
 			series: 'Cambridge 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_33.jpg',
 			title: 'Arman’s Journey',
 			status: '架上有書'
 		},
 		{
 			id: 'CS-3',
 			series: 'Cambridge 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_32.jpg',
 			title: 'Let Me Out!',
 			status: '架上有書'
 		},
 		{
 			id: 'CS-4',
 			series: 'Cambridge 系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_31.jpg',
 			title: 'Why?',
 			status: '架上有書'
 		},
@@ -661,7 +661,7 @@ var data = {
 		{
 			id: 'M9',
 			series: '中文書系列',
-			img: './asset/images/books/.jpg',
+			img: './asset/images/books/book_3.jpg',
 			title: '一個德國人的故事:一九一四—一九三三回憶錄',
 			status: '架上有書'
 		},
