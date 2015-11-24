@@ -18,7 +18,7 @@ router.get('/', (req, res, next) => {
     let useData = req.query.data || '';
     let tmp     = data[useData]  || [];
 
-    console.log('Building page...', page);
+    console.log('Building page...', page, useData);
 
     res.render( page, { data: tmp } );
 
