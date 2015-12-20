@@ -8,6 +8,12 @@ $(document).ready(function(){
 		});
 	});
 
+	$('body').on('click', '#cover', function(){
+		$('#cover').fadeTo(300, 0, function(){
+			this.remove();
+		});
+	});
+
 	$('.pop').click(function(){
 		var box = popBox.replace(/@img/, $(this).attr('data-img')).replace(/@msg/, $(this).attr('data-msg'));
 		$('body').append(box);

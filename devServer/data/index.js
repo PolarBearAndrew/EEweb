@@ -13,9 +13,9 @@ var data = {
 	freshwater : require('./freshwater.js'),
 	library : require('./library.js'),
 	paper01 : require('./paper01.js'),
+	paper04 : require('./paper04.js'),
 	paper07 : require('./paper07.js'),
 	reading : require('./reading.js'),
-	reportGW : require('./reportGW.js'),
 	schoolActivity : require('./schoolActivity.js'),
 	studentList : require('./studentList.js'),
 };
@@ -54,38 +54,35 @@ records = records.map(function(record){
 	return record;
 });
 
+records[1].num = data.paper01.length;
+records[4].num = data.paper04.length;
+records[7].num = data.paper07.length;
+
 data.records = {
 	'class' : records,
 	'student' : data.studentList,
 };
 
-data.paper01 = data.paper01.map(function(paper){
-	paper.stuId = paper.stuId.map(function(id){
-		return {
-			id : id,
-			name : _MAP[id],
-		};
+function processingPaper(papers){
+	papers = papers.map(function(paper){
+		paper.stuId = paper.stuId.map(function(id){
+			return {
+				id : id,
+				name : _MAP[id],
+			};
+		});
+		return paper;
 	});
-	return paper;
-});
 
-data.paper01 = _.groupBy(data.paper01, function(paper){
-	return paper.key;
-});
-
-data.paper07 = data.paper07.map(function(paper){
-	paper.stuId = paper.stuId.map(function(id){
-		return {
-			id : id,
-			name : _MAP[id],
-		};
+	papers = _.groupBy(papers, function(paper){
+		return paper.key;
 	});
-	return paper;
-});
+	return papers;
+}
 
-data.paper07 = _.groupBy(data.paper07, function(paper){
-	return paper.key;
-});
+data.paper01 = processingPaper(data.paper01);
+data.paper04 = processingPaper(data.paper04);
+data.paper07 = processingPaper(data.paper07);
 
 
 module.exports = data;

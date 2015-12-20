@@ -1,0 +1,40 @@
+
+// 小組
+
+extends container
+
+block styleSheet
+	link(rel="stylesheet", href="./asset/stylesheets/paper.css")
+
+block javaScript
+	script(src='./asset/javascripts/paper.js')
+
+block content
+	include navBar
+	br
+	.ui.container
+		.ui.four.stackable.cards
+			- var keys = Object.keys(data)
+			- for( var k = 0; k < keys.length; k++ ) 
+				- var papers = data[keys[k]];
+				- for( var i = 0; i < papers.length; i++ )
+					- var paper = papers[i];
+					.card.red
+						.content
+							.header= paper.title
+						a.image
+							img.ui.image.small(src=paper.img style='max-height:410px')		
+						.content
+							.meta
+								span.right.floated.time= ( i + 1 ) + '/' + papers.length
+								- var names = '';
+								- for ( var n = 0; n < paper.stuId.length; n++)
+									- names += paper.stuId[n].name + ','
+								span.category= '小組作業 /' + names
+						.ui.bottom.attached.button.pop(data-img=paper.img data-msg=names+(i+1)+'/'+papers.length )
+							i.print.icon
+							|       放大檢視
+
+	br
+	br
+	include footer
