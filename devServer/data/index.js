@@ -1,7 +1,7 @@
-var data = {};
+var data = {
+	records : require('./records.js'),
+	library : require('./library.js'),
+	reading : require('./reading.js'),
+};
 
-data.records = require('./records.js');
-data.library = require('./library.js');
-
-// module.exports = data;
 module.exports = data;
