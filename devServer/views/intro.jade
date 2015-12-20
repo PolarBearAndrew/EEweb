@@ -3,41 +3,28 @@ extends container
 block content
 	include navBar
 	.ui.container
-	.ui.three.column.grid.item.stackable
-		- for( var i = 0; i < 3; i++ )	
-			.column
-				h5.ui.center.aligned.icon.header
-					br
-					img.ui.small.circular.image(src='./asset/images/1.jpg' style='width: 280px')
-					br
-					br
-					.description
-					| Lorem ipsum dolor sit amet.
-					br
-					| consectetuer adipiscing elit.
-					br
-					| Aenean commodo ligula eget dolor.
-					br
-					br
-					button.ui.green.button Get Start
-		include teacherdata
-		.ui.container
-			br
-			br
-			br
-			.ui.items
-				.item
-					.image(style='width: 280px')
-						img(src='/images/wireframe/image.png')
-					.content
-						a.header Header
-						.meta
-							span Description
+		.ui.three.column.grid.item.stackable
+			- for( var i = 0; i < 3; i++ )	
+				.column
+					h5.ui.center.aligned.icon.header
+						br
+						img.ui.small.circular.image(src='./asset/images/1.jpg' style='width: 280px')
+						br
+						br
 						.description
-							p
-						.extra
-							| Additional Details
-	br
-	br
-	br
+						| Lorem ipsum dolor sit amet.
+						br
+						| consectetuer adipiscing elit.
+						br
+						| Aenean commodo ligula eget dolor.
+						br
+						br
+						button.ui.green.button Get Start
+		br
+		br
+		br
+		include teacherdata
+		br
+		br
+		br
 	include footer
