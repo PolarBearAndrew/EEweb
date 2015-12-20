@@ -1,10 +1,16 @@
 var _ = require('lodash');
 
 var data = {
-	records : require('./records.js'),
+	freshwater : require('./freshwater.js'),
 	library : require('./library.js'),
+	paper01 : require('./paper01.js'),
+	paper07 : require('./paper07.js'),
 	reading : require('./reading.js'),
+	records : require('./records.js'),
+	reportGW : require('./reportGW.js'),
+	schoolActivity : require('./schoolActivity.js'),
 	studentList : require('./studentList.js'),
+	
 };
 
 data.reading = _.groupBy(data.reading, function(read){
