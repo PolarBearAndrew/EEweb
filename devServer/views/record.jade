@@ -82,9 +82,21 @@ block content
 								= record.todo[n]
 								br
 						td.right.aligned.single.line
-							| 80% 
+							- if(record.percent === 100)
+								a.ui.green.circular.label= record.percent + '%'
+							- else if(record.percent > 0)
+								a.ui.orange.circular.label= record.percent + '%'
+							- else
+								a.ui.gray.circular.label= record.percent + '%'
 							br
-							a(href='./record_week' + i + '.html')= '相關記錄(' + record.num + ')'
+							br
+							- if(record.num > 0)
+								a(href='./record_week' + i + '.html').ui.label.blue 相關記錄
+									.detail= record.num
+							- else
+								a.ui.label 相關記錄
+									.detail= record.num
+							
 		br
 		br
 		br
