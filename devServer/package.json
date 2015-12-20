@@ -20,7 +20,8 @@
     "require-dot-file": "^0.4.0",
     "semantic-ui": "^2.0.8",
     "serve-favicon": "~2.2.0",
-    "yamljs": "^0.2.3"
+    "yamljs": "^0.2.3",
+    "lodash": "~3.10.1"
   },
   "devDependencies": {
     "chai": "^3.0.0",
