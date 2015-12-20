@@ -6,9 +6,9 @@ block styleSheet
 block content
 	include navBar
 	.ui.container
-		//- h4.ui.horizontal.divider.header
-			//- i.tag.icon
-			//- | Description
+		h4.ui.horizontal.divider.header
+			i.tag.icon
+			| Description
 		.ui.tall.stacked.segment(style='min-height:200px')
 			.teacher
 				img.ui.small.rounded.image(src='./asset/images/woman.jpg')
@@ -62,8 +62,8 @@ block content
 			| Class Records
 
 		table.ui.celled.padded.table
-			- for( var i = 0; i < data.length; i++ )
-				- var record = data[i];
+			- for( var i = 0; i < data.class.length; i++ )
+				- var record = data.class[i];
 				- if( i == 0)
 					thead
 						tr
@@ -96,10 +96,27 @@ block content
 							- else
 								a.ui.label 相關記錄
 									.detail= record.num
-							
+		h4.ui.horizontal.divider.header
+			i.trophy.icon
+			| Class Records
 		br
-		br
-		br
+		.ui.container
+			- var keys = Object.keys(data.student)
+			- for( var t = 0; t < keys.length; t++ )
+				- var team = data.student[keys[t]]
+				.ui.large.horizontal.divided.list
+					h1= '第' + keys[t] + '組'
+					- for( var s = 0; s < team.length; s++ )
+						.item
+							- if(team[s].sex == '男')
+								img.ui.avatar.image(src='./asset/images/boy.png')
+							- else if(team[s].sex == '女')
+								img.ui.avatar.image(src='./asset/images/girl.png')
+							.content
+								a.header= team[s].name
+								.description= team[s].id + team[s].depart + team[s].grade
+
+
 		include footer
 
 block javaScript

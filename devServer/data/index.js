@@ -6,11 +6,9 @@ var data = {
 	paper01 : require('./paper01.js'),
 	paper07 : require('./paper07.js'),
 	reading : require('./reading.js'),
-	records : require('./records.js'),
 	reportGW : require('./reportGW.js'),
 	schoolActivity : require('./schoolActivity.js'),
 	studentList : require('./studentList.js'),
-	
 };
 
 data.reading = _.groupBy(data.reading, function(read){
@@ -21,7 +19,8 @@ data.studentList = _.groupBy(data.studentList, function(read){
 	return read.group;
 });
 
-data.records = data.records.map(function(record){
+var records = require('./records.js');
+records = records.map(function(record){
 	record.todo = record.todo
 		// .replace(/:/, '：#')
 		// .replace(/：/, '：#')
@@ -38,6 +37,11 @@ data.records = data.records.map(function(record){
 	record.todo = _.words(record.todo, /[^#]+/g);
 	return record;
 });
+
+data.records = {
+	'class' : records,
+	'student' : data.studentList,
+};
 
 
 module.exports = data;
