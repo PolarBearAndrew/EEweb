@@ -1,0 +1,24 @@
+extends container
+
+block content
+	include navBar
+	br
+	.ui.container
+		.ui.four.stackable.cards
+			- var keys = Object.keys(data)
+			- for( var k = 0; k < keys.length; k++ ) 
+				- var papers = data[keys[k]];
+				- for( var i = 0; i < papers.length; i++ )
+					- var paper = papers[i];
+					.card.red
+						.content
+							.header= paper.stuId[0].name
+						a.image
+							img.ui.image.small(src=paper.img style='max-height:410px')		
+						.content
+							.meta
+								span.right.floated.time= ( i + 1 ) + '/' + papers.length
+								span.category= paper.stuId[0].id + ' / 個人作業'
+						.ui.bottom.attached.button
+							i.print.icon
+							|       放大檢視

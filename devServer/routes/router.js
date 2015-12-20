@@ -17,15 +17,13 @@ router.get('/library', (req, res, next) => {
 	res.render('library', { data: data.library });
 });
 
-// router.get('/reading', (req, res, next) => {
-// 	res.json(data.reading);
-// 	// res.render('reading', { data: data.reading });
-// });
-
-router.get('/nameList', (req, res, next) => {
-	res.json(data.studentList);
-	// res.render('reading', { data: data.reading });
+router.get('/record_week1', (req, res, next) => {
+	res.render('record_week1', { data: data.paper01 });
 });
 
+router.get('/record_week7', (req, res, next) => {
+	// res.json(data.paper07);
+	res.render('record_week7', { data: data.paper07 });
+});
 
 module.exports = router;

@@ -1,4 +1,13 @@
+
+
 var _ = require('lodash');
+var _MAP = {};
+
+var tmp = require('./studentList.js');
+tmp.forEach(function(stu){
+	_MAP[stu.id] = stu.name;
+});
+
 
 var data = {
 	freshwater : require('./freshwater.js'),
@@ -45,12 +54,38 @@ records = records.map(function(record){
 	return record;
 });
 
-
 data.records = {
 	'class' : records,
 	'student' : data.studentList,
 };
 
+data.paper01 = data.paper01.map(function(paper){
+	paper.stuId = paper.stuId.map(function(id){
+		return {
+			id : id,
+			name : _MAP[id],
+		};
+	});
+	return paper;
+});
+
+data.paper01 = _.groupBy(data.paper01, function(paper){
+	return paper.key;
+});
+
+data.paper07 = data.paper07.map(function(paper){
+	paper.stuId = paper.stuId.map(function(id){
+		return {
+			id : id,
+			name : _MAP[id],
+		};
+	});
+	return paper;
+});
+
+data.paper07 = _.groupBy(data.paper07, function(paper){
+	return paper.key;
+});
 
 
 module.exports = data;
