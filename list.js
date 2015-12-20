@@ -7,6 +7,8 @@ var list = [
   { page: 'record', data: 'records' },
   { page: 'library', data: 'library' },
   { page: 'record_week1', data: 'paper01' },
+  { page: 'record_week4', data: 'paper04' },
+  { page: 'record_week7', data: 'paper07' },
 ];
 
 module.exports = list;
