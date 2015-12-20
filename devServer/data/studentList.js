@@ -14,7 +14,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '5',
 },
 {
 	id : '102101146',
@@ -23,7 +23,7 @@ module.exports = [{
 	depart : '纖維',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '3',
 },
 {
 	id : '102103123',
@@ -32,7 +32,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '5',
 },
 {
 	id : '102103124',
@@ -41,7 +41,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '7',
 },
 {
 	id : '102103134',
@@ -50,7 +50,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '女',
-	group : '',
+	group : '1',
 },
 {
 	id : '102103138',
@@ -59,7 +59,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '7',
 },
 {
 	id : '102103141',
@@ -68,7 +68,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '5',
 },
 {
 	id : '102103143',
@@ -77,7 +77,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '7',
 },
 {
 	id : '102103146',
@@ -86,7 +86,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '5',
 },
 {
 	id : '102103148',
@@ -95,7 +95,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '7',
 },
 {
 	id : '102103152',
@@ -104,7 +104,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '5',
 },
 {
 	id : '102103154',
@@ -113,7 +113,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '5',
 },
 {
 	id : '102103155',
@@ -122,7 +122,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '5',
 },
 {
 	id : '102103208',
@@ -140,7 +140,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '6',
 },
 {
 	id : '102103239',
@@ -149,7 +149,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '4',
 },
 {
 	id : '102103301',
@@ -158,7 +158,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '2',
 },
 {
 	id : '102103307',
@@ -176,7 +176,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '2',
 },
 {
 	id : '102103318',
@@ -194,7 +194,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '2',
 },
 {
 	id : '102103327',
@@ -212,7 +212,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '2',
 },
 {
 	id : '102103336',
@@ -230,7 +230,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '3',
 },
 {
 	id : '102103346',
@@ -248,7 +248,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '2',
 },
 {
 	id : '102103355',
@@ -257,7 +257,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '3',
 },
 {
 	id : '102104251',
@@ -266,7 +266,7 @@ module.exports = [{
 	depart : '電子',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '6',
 },
 {
 	id : '102105106',
@@ -275,7 +275,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '1',
 },
 {
 	id : '102105107',
@@ -284,7 +284,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '1',
 },
 {
 	id : '102105116',
@@ -293,7 +293,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '女',
-	group : '',
+	group : '7',
 },
 {
 	id : '102105124',
@@ -302,7 +302,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '1',
 },
 {
 	id : '102105128',
@@ -311,7 +311,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '1',
 },
 {
 	id : '102105134',
@@ -320,7 +320,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '1',
 },
 {
 	id : '102105135',
@@ -329,7 +329,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '7',
 },
 {
 	id : '102105140',
@@ -338,7 +338,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '3',
 },
 {
 	id : '102105147',
@@ -347,7 +347,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '3',
 },
 {
 	id : '102105155',
@@ -356,7 +356,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '7',
 },
 {
 	id : '102105157',
@@ -365,7 +365,7 @@ module.exports = [{
 	depart : '工管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '1',
 },
 {
 	id : '102109119',
@@ -374,7 +374,7 @@ module.exports = [{
 	depart : '通訊',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '6',
 },
 {
 	id : '102109120',
@@ -383,7 +383,7 @@ module.exports = [{
 	depart : '通訊',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '3',
 },
 {
 	id : '102109133',
@@ -392,7 +392,7 @@ module.exports = [{
 	depart : '通訊',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '4',
 },
 {
 	id : '102109215',
@@ -401,7 +401,7 @@ module.exports = [{
 	depart : '通訊',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '4',
 },
 {
 	id : '102109259',
@@ -410,7 +410,7 @@ module.exports = [{
 	depart : '通訊',
 	grade : '3',
 	sex : '女',
-	group : '',
+	group : '4',
 },
 {
 	id : '102111118',
@@ -419,5 +419,5 @@ module.exports = [{
 	depart : '資管',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : '6',
 }];
