@@ -15,6 +15,13 @@ data.reading = _.groupBy(data.reading, function(read){
 	return read.key;
 });
 
+data.studentList = data.studentList.map(function(stu){
+	if(stu.group == 'unknow'){
+		stu.group = '10';
+	}
+	return stu;
+});
+
 data.studentList = _.groupBy(data.studentList, function(read){
 	return read.group;
 });
@@ -38,10 +45,12 @@ records = records.map(function(record){
 	return record;
 });
 
+
 data.records = {
 	'class' : records,
 	'student' : data.studentList,
 };
+
 
 
 module.exports = data;
