@@ -4,7 +4,7 @@
 var list = [
   { page: 'home', data: '' },
   { page: 'intro', data: '' },
-  { page: 'record', data: '' },
+  { page: 'record', data: 'records' },
   { page: 'library', data: 'library' },
 ];
 
