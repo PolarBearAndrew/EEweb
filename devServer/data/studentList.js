@@ -1,47 +1,423 @@
-101102332	王耀緯	Wang, Yao-Wei	機械	4	男
-101103153	王泰元	Wang, Tai-Yuan	電機	3	男
-102101146	曾子軒	Ceng Zi Xuan	纖維	3	男
-102103123	楊博凱	Yang, Bo-Kai	電機	3	男
-102103124	李淳曄	Lee, Chun-Yeh	電機	3	男
-102103134	胡元	Hu Yuan	電機	3	女
-102103138	林政賢	Lin, Cheng-Hsien	電機	3	男
-102103141	陳昭維	Chen Zhao Wei	電機	3	男
-102103143	葛昌倫	Ge Chang Lun	電機	3	男
-102103146	謝偉強	Xie, Wei-Qiang	電機	3	男
-102103148	吳忠諺	Wu, Jhong-Yan	電機	3	男
-102103152	郭冠毅	Kuo,  Kuan-Yi	電機	3	男
-102103154	黃照凱	Huang Zhao Kai	電機	3	男
-102103155	王世偉	Wang, Shi-Wei	電機	3	男
-102103208	吳承恩	Wu, Cheng-En	電機	3	男
-102103236	李宗儒	Tzong Ru Lee	電機	3	男
-102103239	曾耀祖	Tseng, Yao-Tsu	電機	3	男
-102103301	帥見宇	Shuai, Jian-Yu	電機	3	男
-102103307	陳韋霖	Chen Wei Lin	電機	3	男
-102103308	林為誠	Lin Wei  Cheng	電機	3	男
-102103318	張立人	Jhang, Li-Ren	電機	3	男
-102103324	陳威仲	Chen, Wei-Chung	電機	3	男
-102103327	謝宗庭	Hsieh, Tsung-Ting	電機	3	男
-102103333	曹晉睿	Cao, Jin-Rui	電機	3	男
-102103336	游祐翔	You, You-Xiang	電機	3	男
-102103340	何政哲	Ho, Cheng-Che	電機	3	男
-102103346	李庭豪	Ting Hao Li	電機	3	男
-102103353	張峻瑋	Zhang, Jiun-Wei	電機	3	男
-102103355	陳信維	Chen, Xin-Wei	電機	3	男
-102104251	李承謙	Li, Cheng-Cian	電子	3	男
-102105106	屈任之	Qu, Ren-Zhi	工管	3	男
-102105107	郭俊廷	Guo, Jun-Ting	工管	3	男
-102105116	林祖安	Lin, Zu-An	工管	3	女
-102105124	陳冠宇	Chen Guan Yu	工管	3	男
-102105128	王榮伸	Wang, Rong-Shen	工管	3	男
-102105134	張佑銘	Chang Yu Ming	工管	3	男
-102105135	黃瑞安	Huang, Rui-An	工管	3	男
-102105140	古富方	Ku Fu Fang	工管	3	男
-102105147	張允詳	Zhang, Yun-Xiang	工管	3	男
-102105155	陳彥廷	Chen, Yan-Ting	工管	3	男
-102105157	喻浚哲	Yu, Jun-Zhe	工管	3	男
-102109119	曾世凱	Zeng, Shi-Kai	通訊	3	男
-102109120	林揚竣	Lin,Yang-Jun	通訊	3	男
-102109133	高廷宇	Kao, Ting-Yu	通訊	3	男
-102109215	陳柏豪	Chen, Bo-Hao	通訊	3	男
-102109259	盧韻如	Yun-Ju Lu	通訊	3	女
-102111118	劉晉呈	Liu, Chin-Chen	資管	3	男
+module.exports = [{
+	id : '101102332',
+	name : '王耀緯',
+	nameEn : 'Wang, Yao-Wei',
+	depart : '機械',
+	grade : '4',
+	sex : '男',
+	group : '',
+},
+{
+	id : '101103153',
+	name : '王泰元',
+	nameEn : 'Wang, Tai-Yuan',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102101146',
+	name : '曾子軒',
+	nameEn : 'Ceng Zi Xuan',
+	depart : '纖維',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103123',
+	name : '楊博凱',
+	nameEn : 'Yang, Bo-Kai',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103124',
+	name : '李淳曄',
+	nameEn : 'Lee, Chun-Yeh',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103134',
+	name : '胡元',
+	nameEn : 'Hu Yuan',
+	depart : '電機',
+	grade : '3',
+	sex : '女',
+	group : '',
+},
+{
+	id : '102103138',
+	name : '林政賢',
+	nameEn : 'Lin, Cheng-Hsien',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103141',
+	name : '陳昭維',
+	nameEn : 'Chen Zhao Wei',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103143',
+	name : '葛昌倫',
+	nameEn : 'Ge Chang Lun',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103146',
+	name : '謝偉強',
+	nameEn : 'Xie, Wei-Qiang',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103148',
+	name : '吳忠諺',
+	nameEn : 'Wu, Jhong-Yan',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103152',
+	name : '郭冠毅',
+	nameEn : 'Kuo,  Kuan-Yi',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103154',
+	name : '黃照凱',
+	nameEn : 'Huang Zhao Kai',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103155',
+	name : '王世偉',
+	nameEn : 'Wang, Shi-Wei',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103208',
+	name : '吳承恩',
+	nameEn : 'Wu, Cheng-En',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103236',
+	name : '李宗儒',
+	nameEn : 'Tzong Ru Lee',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103239',
+	name : '曾耀祖',
+	nameEn : 'Tseng, Yao-Tsu',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103301',
+	name : '帥見宇',
+	nameEn : 'Shuai, Jian-Yu',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103307',
+	name : '陳韋霖',
+	nameEn : 'Chen Wei Lin',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103308',
+	name : '林為誠',
+	nameEn : 'Lin Wei  Cheng',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103318',
+	name : '張立人',
+	nameEn : 'Jhang, Li-Ren',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103324',
+	name : '陳威仲',
+	nameEn : 'Chen, Wei-Chung',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103327',
+	name : '謝宗庭',
+	nameEn : 'Hsieh, Tsung-Ting',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103333',
+	name : '曹晉睿',
+	nameEn : 'Cao, Jin-Rui',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103336',
+	name : '游祐翔',
+	nameEn : 'You, You-Xiang',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103340',
+	name : '何政哲',
+	nameEn : 'Ho, Cheng-Che',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103346',
+	name : '李庭豪',
+	nameEn : 'Ting Hao Li',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103353',
+	name : '張峻瑋',
+	nameEn : 'Zhang, Jiun-Wei',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102103355',
+	name : '陳信維',
+	nameEn : 'Chen, Xin-Wei',
+	depart : '電機',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102104251',
+	name : '李承謙',
+	nameEn : 'Li, Cheng-Cian',
+	depart : '電子',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105106',
+	name : '屈任之',
+	nameEn : 'Qu, Ren-Zhi',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105107',
+	name : '郭俊廷',
+	nameEn : 'Guo, Jun-Ting',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105116',
+	name : '林祖安',
+	nameEn : 'Lin, Zu-An',
+	depart : '工管',
+	grade : '3',
+	sex : '女',
+	group : '',
+},
+{
+	id : '102105124',
+	name : '陳冠宇',
+	nameEn : 'Chen Guan Yu',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105128',
+	name : '王榮伸',
+	nameEn : 'Wang, Rong-Shen',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105134',
+	name : '張佑銘',
+	nameEn : 'Chang Yu Ming',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105135',
+	name : '黃瑞安',
+	nameEn : 'Huang, Rui-An',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105140',
+	name : '古富方',
+	nameEn : 'Ku Fu Fang',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105147',
+	name : '張允詳',
+	nameEn : 'Zhang, Yun-Xiang',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105155',
+	name : '陳彥廷',
+	nameEn : 'Chen, Yan-Ting',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102105157',
+	name : '喻浚哲',
+	nameEn : 'Yu, Jun-Zhe',
+	depart : '工管',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102109119',
+	name : '曾世凱',
+	nameEn : 'Zeng, Shi-Kai',
+	depart : '通訊',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102109120',
+	name : '林揚竣',
+	nameEn : 'Lin,Yang-Jun',
+	depart : '通訊',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102109133',
+	name : '高廷宇',
+	nameEn : 'Kao, Ting-Yu',
+	depart : '通訊',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102109215',
+	name : '陳柏豪',
+	nameEn : 'Chen, Bo-Hao',
+	depart : '通訊',
+	grade : '3',
+	sex : '男',
+	group : '',
+},
+{
+	id : '102109259',
+	name : '盧韻如',
+	nameEn : 'Yun-Ju Lu',
+	depart : '通訊',
+	grade : '3',
+	sex : '女',
+	group : '',
+},
+{
+	id : '102111118',
+	name : '劉晉呈',
+	nameEn : 'Liu, Chin-Chen',
+	depart : '資管',
+	grade : '3',
+	sex : '男',
+	group : '',
+}];

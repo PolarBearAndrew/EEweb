@@ -17,8 +17,13 @@ router.get('/library', (req, res, next) => {
 	res.render('library', { data: data.library });
 });
 
-router.get('/reading', (req, res, next) => {
-	res.json(data.reading);
+// router.get('/reading', (req, res, next) => {
+// 	res.json(data.reading);
+// 	// res.render('reading', { data: data.reading });
+// });
+
+router.get('/nameList', (req, res, next) => {
+	res.json(data.studentList);
 	// res.render('reading', { data: data.reading });
 });
 
