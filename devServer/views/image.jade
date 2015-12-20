@@ -1,0 +1,36 @@
+extends container
+
+block content
+	include navBar
+	.ui.container
+	.container.theme-showcase(role='main')
+		#myCarousel.carousel.slide
+			.col-md-9
+				ol.carousel-indicators
+					li.active(data-target='#myCarousel', data-slide-to='0')
+					li(data-target='#myCarousel', data-slide-to='1')
+					li(data-target='#myCarousel', data-slide-to='2')
+				.carousel-inner
+					.item.active
+						img(src='img/1.jpg', alt='Second slide')
+						.carousel-caption 1
+					.item
+						img(src='img/2.jpg', alt='Third slide')
+						.carousel-caption 2
+					.item
+						img(src='img/3.jpg', alt='Third slide')
+						.carousel-caption 3
+				a.carousel-control.left(href='#myCarousel', data-slide='prev')
+					span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+					span.sr-only Previous
+				a.carousel-control.right(href='#myCarousel', data-slide='next')
+					span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+					span.sr-only Next
+		br
+		br
+		br
+		include teacherdata
+		br
+		br
+		br
+	include footer

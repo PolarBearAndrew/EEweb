@@ -1,4 +1,4 @@
-//------------------------------------- 學生分組名單 -------------------------------------// 
+//------------------------------------- 學生分組名單 -------------------------------------//
 module.exports = [{
 	id : '101102332',
 	name : '王耀緯',
@@ -6,7 +6,7 @@ module.exports = [{
 	depart : '機械',
 	grade : '4',
 	sex : '男',
-	group : '',
+	group : 'unknow',
 },
 {
 	id : '101103153',
@@ -132,7 +132,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : 'unknow',
 },
 {
 	id : '102103236',
@@ -168,7 +168,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : 'unknow',
 },
 {
 	id : '102103308',
@@ -186,7 +186,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : 'unknow',
 },
 {
 	id : '102103324',
@@ -204,7 +204,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : 'unknow',
 },
 {
 	id : '102103333',
@@ -222,7 +222,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : 'unknow',
 },
 {
 	id : '102103340',
@@ -240,7 +240,7 @@ module.exports = [{
 	depart : '電機',
 	grade : '3',
 	sex : '男',
-	group : '',
+	group : 'unknow',
 },
 {
 	id : '102103353',

@@ -105,7 +105,7 @@ block content
 			- for( var t = 0; t < keys.length; t++ )
 				- var team = data.student[keys[t]]
 				.ui.large.horizontal.divided.list
-					h1= '第' + keys[t] + '組'
+					h1= team[0].group
 					- for( var s = 0; s < team.length; s++ )
 						.item
 							- if(team[s].sex == '男')
