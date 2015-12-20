@@ -1,5 +1,11 @@
 extends container
 
+block styleSheet
+	link(rel="stylesheet", href="./asset/stylesheets/paper.css")
+
+block javaScript
+	script(src='./asset/javascripts/paper.js')
+
 block content
 	include navBar
 	br
@@ -19,6 +25,10 @@ block content
 							.meta
 								span.right.floated.time= ( i + 1 ) + '/' + papers.length
 								span.category= paper.stuId[0].id + ' / 個人作業'
-						.ui.bottom.attached.button
+						.ui.bottom.attached.button.pop(data-img=paper.img data-msg=paper.stuId[0].id+paper.stuId[0].name+(i+1)+'/'+papers.length )
 							i.print.icon
 							|       放大檢視
+
+	br
+	br
+	include footer
