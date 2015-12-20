@@ -59,26 +59,35 @@ block content
 			
 		h4.ui.horizontal.divider.header
 			i.trophy.icon
-			| Feature Records
+			| Class Records
 
-		- var features = data.features;
-		- for( var i = 0; i < features.length; i++ )
-			- var val = features[i];
-			.ui.relaxed.divided.items
-				.item
-					.ui.image.booksWidth
-						img(src=val.img)
-					.content
-						h1= val.title
-						.meta
-						a.ui.image.label(class=val.tag.color)
-							i.user.icon
-								= '      ' + val.tag.name
-							.detail Student
-						.description(style='font-size:1.3em')
-							- for( var a = 0; a < val.article.length; a++)
-								p= val.article[a]
-
+		table.ui.celled.padded.table
+			- for( var i = 0; i < data.length; i++ )
+				- var record = data[i];
+				- if( i == 0)
+					thead
+						tr
+							th.single.line= record.week
+							th= record.content
+							th= record.todo
+							th= '課程進度'
+					tbody
+				- else
+					tr
+						td.single.line
+							h2.ui.center.aligned.header= record.week
+						td= record.content
+						td
+							- for( var n = 0; n < record.todo.length; n++ )
+								= record.todo[n]
+								br
+						td.right.aligned.single.line
+							| 80% 
+							br
+							a(href='./record_week' + i + '.html')= '相關記錄(' + record.num + ')'
+		br
+		br
+		br
 		include footer
 
 block javaScript

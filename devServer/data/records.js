@@ -1,20 +1,117 @@
-var data = {
-	features: [
-		{
-			img: '/asset/images/forDemo.jpg',
-			title: 'Dragon\'s Egg',
-			tag: {
-				name: 'AndrewChen',
-				color: 'blue',
-				icon: 'user'
-			},
-			article: [
-				'As the sky brightened, the queue stretched to the end of this crowded street and around the corner. There were people of all ages: young women in jeans and T-shirts, older men and women in more traditional Burmese longyis, all clutching their pink national identity cards and white voter registration documents.',
-				'The one thing nearly all of them have in common is that they have never before had the opportunity to elect a new government.',
-				'There have been reports of irregularities, intimidation and people being left off official voter lists, but, at this polling station, we saw no problems, with officials calmly explaining the procedure for filling out ballot papers and placing them in the sealed boxes.',
-			],
-		}
-	],
-};
 
-module.exports = data;
+module.exports = [
+	{
+		week : " 週次 ",
+		content : " 課程內容 ",
+		todo : " 指定閱讀/教學活動安排 ",
+		num : 20,
+	},
+	{
+		week : " 第1週 ",
+		content : " 原來我們是一家人!We’re Family!四海皆兄弟! 廣泛閱讀_讀書、讀報、讀自己_我們的故事 國際時事知多少? ",
+		todo : "1.圖書館English Reading Corner巡禮 2.牛津書蟲讀本等系列介紹 http : //www.cavesbooks.com.tw/ files/webpage/bookweb/bookworms/index.html",
+		num : 20,
+	},
+	{
+		week : " 第2週 ",
+		content : "國際關懷主題探討(一之一)：全球女性地位 1.破冰遊戲： to_be_a_woman 2. 認識全球傑出女性 : 書名與封面配對 3. 牛津書蟲閱讀圈 以Callus文本討論為例(FACEBOOK線上討論)",
+		todo : "母親節卡片暨全球傑出女性書展 1.翁山蘇姬傳：自由無懼．因愛而戰 2.抉擇：希拉蕊回憶錄 3.改變世界的力量：梅克爾傳 4.上帝給王雪紅的十堂課 5.奧黛麗．赫本：一個優雅的靈魂 6.柴契爾夫人傳：深陷困境但絕不屈服 7.One Person CAN Change the World!(羅莎·帕克斯) 8.黛安娜王妃9.居里夫人傳 10.我是馬拉拉",
+		num : 20,
+	},
+	{
+		week : " 第3週 ",
+		content : "國際關懷主題探討(一之二)：全球女性地位 破冰遊戲：World Costume Parade 牛津書蟲閱讀圈以Progress文本討論為例(FACEBOOK線上討論) 「職場霸凌」workplace bullying",
+		todo : " 各國女性服裝秀(馬來西亞、緬甸、中國、越南、泰國、印尼、韓國、日本、菲律賓、墨西哥、美國、巴西、甘比亞等) ",
+		num : 20,
+	},
+	{
+		week : " 第4週 ",
+		content : "國際關懷主題探討(一之三)：全球女性地位 主題講授與分組報告：女性人權相關國際公約及宣言",
+		todo : "Week 5分組報告1(20%) : 全球傑出女性 1.政治界、2.科學界、3.企業界、4.藝文界 呂秀蓮、翁山蘇姬、希拉蕊、黛安娜王妃、柴契爾夫人(Iron Lady)、王雪紅、馬拉拉等",
+		num : 20,
+	},
+	{
+		week : " 第5週 ",
+		content : "國際關懷主題探討(二之一)：全球戰爭與犯罪 破冰遊戲：環遊世界80天 牛津書蟲閱讀圈 以Why? Jojo’s Story Blood Diamond 三篇文本討論為例(FACEBOOK線上討論) 血鑽石買賣的通路及取得武器的路徑",
+		todo : "指定閱讀&分組報告(第9週)： 國際觀的第一本書_看世界的方法(劉必榮) 1. 中國真的崛起!--：大國之間的權力新格局 2. 誰才算大國？--：強權崛起的必經之路 3. 東亞新秩序—中國與週邊國家的關係 4. 石油與油管政治：牽動國際情勢的黑色力量 5. 經濟制裁—改變他國行為的不流血手段 6. 演習與試射飛彈",
+		num : 20,
+	},
+	{
+		week : " 第6週 ",
+		content : "國際關懷主題探討(二之二)：全球戰爭與犯罪 破冰遊戲 : 角色扮演 牛津書蟲閱讀圈 以Blood Feud文本討論為例(FACEBOOK線上討論) 領土與族群問題(一)",
+		todo : "指定閱讀： 國際衝突─從敵意到戰爭的不和平對峙 各國眼中的世界(帕斯卡.博尼法斯&于貝爾.凡德林)",
+		num : 20,
+	},
+	{
+		week : " 第7週 ",
+		content : "國際關懷主題探討(二之三)：全球戰爭與犯罪 導讀與影片欣賞：The Kite Runner(追風箏的孩子)",
+		todo : "影片欣賞活動學習單： 導讀 : 漫畫家眼中阿富汗的戰爭與和平 劇情摘要 : 阿富汗的風土人情與文化傳承 指定閱讀：追風箏的孩子(卡勒德.胡賽尼著)",
+		num : 20,
+	},
+	{
+		week : " 第8週 ",
+		content : " 淡水國際青年使命團磐石咖啡文化交流參訪活動 ",
+		todo : "國際文化交流參訪活動學習單(10%)： 印象最深刻的食物(國家/食物名稱、材料、做法/理由/照片) 2.我最想進一步暸解的國家(理由/先備資料/我的提問) 3.我學到的外國話(國家、字彙&句子、學習情境_人、事、時、地、物)",
+		num : 20,
+	},
+	{
+		week : " 第9週 ",
+		content : "國際關懷主題探討(二之四)：全球戰爭與犯罪 影片討論與總結：The Kite Runner 主題講授與分組報告：國際衝突─領土與族群問題(二) : 戰爭、飢餓、難民、移工、移民",
+		todo : "1.影片欣賞主題討論與回應 2.分組報告2(20%) : 參照第5週 指定閱讀",
+		num : 20,
+	},
+	{
+		week : " 第10週 ",
+		content : "期中筆試測驗(50%)： 中文閱讀：國際觀的第一本書_看世界的方法(劉必榮) 英文閱讀：Callus、Progress、Blood Diamond、Blood Feud、Jojo’s Story",
+		todo : "期中成績： 台師大國際文化週參訪活動學習單(10%) 分組報告1(20%) 分組報告2(20%) 期中筆試測驗(50%)",
+		num : 20,
+	},
+	{
+		week : " 第11週 ",
+		content : "國際關懷主題探討(三之一)：全球貧富差距 導讀Nelson’s Dream《Cambridge Readers (Level 6)》",
+		todo : "指定閱讀：Nelson’s Dream 雙人小組閱讀分享學習單(20%)：課外故事閱讀Nelson’s Dream，各於第12、13週於課堂進行雙人小組閱讀分享。",
+		num : 20,
+	},
+	{
+		week : " 第12週 ",
+		content : "國際關懷主題探討(三之二)：全球貧富差距 讀報/網路新聞一週大事記分組競賽 Nelson’s Dream(Chs.7~12)：雙人小組閱讀分享 牛津書蟲閱讀圈 以The Inspector of Schools文本討論為例(FACEBOOK線上討論)",
+		todo : "分組競賽1(10%)：讀報/網路新聞一週大事記，搜索全球有關「糧食與貿易談判」、「災難與救援」、「國際衝突」、「經濟制裁」等相關資料。於課堂進行分組競賽。 資料搜索(VOA、Weekly BBC News、The China Post，etc.)",
+		num : 20,
+	},
+	{
+		week : " 第13週 ",
+		content : "國際關懷主題探討(三之三)：全球貧富差距 讀報/網路新聞一週大事記分組競賽 Nelson’s Dream(Chs.13~18)：雙人小組閱讀分享 牛津書蟲閱讀圈 以For a Horseshoe Nail文本討論為例(FACEBOOK線上討論)",
+		todo : "分組競賽2(10%)：讀報/網路新聞一週大事記，搜索全球有關「糧食與貿易談判」、「災難與救援」、「國際衝突」、「經濟制裁」等相關資料。於課堂進行分組競賽。 資料搜索(VOA、Weekly BBC News、The China Post，etc.)",
+		num : 20,
+	},
+	{
+		week : " 第14週 ",
+		content : "國際志工服務(一) 主題演講：一個跨文化工作者的國際觀",
+		todo : "講員： 彭書睿先生(聯合差傳事工促進會秘書長)",
+		num : 20,
+	},
+	{
+		week : "第15週 ",
+		content : "國際志工服務(二)： 國家背景資料檢索：蒙古、尼泊爾、菲律賓、柬埔寨、泰北、寮國、阿富汗、馬利、馬拉威、玻利維亞、薩爾瓦多等 檢索內容：針對糧荒、國內外戰火、種族衝突、突發天災、社會轉型改變引發社會基本結構的動盪、全球金融犯罪等深入研究，確認當地需要",
+		todo : "2016國際志工跨文化交流企畫書暨分組報告(30%) :#國際關懷志工服務隊跨文化交流企畫書 #一、資料檢索，確認當地需要 1.醫療團隊 : (須先暸解當地醫療情況及疾病型態) 2.教育團隊 : e.g. Filmaid難民營影片播放與潔水使用宣導 3.建築工事團隊 : e.g.挖井、蓋學校（Prince Harry's charity) 4.其他 #二、工作計劃 活動主旨、主辦單位、合作單位、活動時間、 活動地點、服務對象及人數、志工對象及人數、 執行內容及期程、經費預算、預期效益",
+		num : 20,
+	},
+	{
+		week : "第16週",
+		content : "分組發表會：「亞東技術學院2016國際志工服務 行前規劃」，配合PPT或影片及海報做多元呈現 (同學進行票選) re : 學生事務處課外活動組",
+		todo : "小組報告 任務分配：引言、論述(2~3名)、結語 評分比例：各組學生互評(50%)、授課者評分(50%)",
+		num : 20,
+	},
+	{
+		week : "第17週 ",
+		content : "期末筆試測驗(30%)： 1. 中文閱讀：各國眼中的世界(帕斯卡.博尼法斯&于貝 爾.凡德林) 2. 英文閱讀：Nelson’s Dream、The Inspector of Schools、For a Horseshoe Nail",
+		todo : "期末成績： 雙人小組閱讀分享學習單(20%) 「一週國際大事」分組競賽(20%) 國際志工跨文化交流企畫書暨分組報告(30%) 期末筆試測驗(30%)",
+		num : 20,
+	},
+	{
+		week : "第18週 ",
+		content : " 期末成果發表會 ",
+		todo : "學期總成績： 期中成績(40 %)、期末成績(40 %)、期末小組學習檔案(20 %)",
+		num : 20,
+	},
+]
