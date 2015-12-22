@@ -10,11 +10,12 @@ tmp.forEach(function(stu){
 
 
 var data = {
-	freshwater : require('./freshwater.js'),
+	// freshwater : require('./freshwater.js'),
 	library : require('./library.js'),
 	paper01 : require('./paper01.js'),
 	paper04 : require('./paper04.js'),
 	paper07 : require('./paper07.js'),
+	paper08 : require('./paper08.js'),
 	reading : require('./reading.js'),
 	schoolActivity : require('./schoolActivity.js'),
 	studentList : require('./studentList.js'),
@@ -57,6 +58,7 @@ records = records.map(function(record){
 records[1].num = data.paper01.length;
 records[4].num = data.paper04.length;
 records[7].num = data.paper07.length;
+records[8].num = data.paper08.length;
 
 data.records = {
 	'class' : records,
@@ -83,6 +85,7 @@ function processingPaper(papers){
 data.paper01 = processingPaper(data.paper01);
 data.paper04 = processingPaper(data.paper04);
 data.paper07 = processingPaper(data.paper07);
+data.paper08 = data.paper08;
 
 
 module.exports = data;
