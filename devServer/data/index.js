@@ -19,6 +19,9 @@ var data = {
 	paper08 : require('./paper08.js'),
 	paper11 : require('./paper11.js'),
 	paper14 : require('./paper14.js'),
+
+	picture08 : require('./picture08.js'),
+
 	reading : require('./reading.js'),
 	schoolActivity : require('./schoolActivity.js'),
 	studentList : require('./studentList.js'),
@@ -58,6 +61,8 @@ records = records.map(function(record){
 	return record;
 });
 
+
+// paper
 records[1].num = data.paper01.length;
 records[4].num = data.paper04.length;
 records[5].num = data.paper04.length;
@@ -65,6 +70,9 @@ records[7].num = data.paper07.length;
 records[8].num = data.paper08.length;
 records[11].num = data.paper11.length;
 records[14].num = data.paper14.length;
+
+// image
+records[9].num = data.picture08.length;
 
 data.records = {
 	'class' : records,
@@ -95,5 +103,7 @@ data.paper07 = processingPaper(data.paper07);
 data.paper08 = processingPaper(data.paper08);
 data.paper11 = processingPaper(data.paper11);
 data.paper14 = processingPaper(data.paper14);
+
+data.picture08 = data.picture08;
 
 module.exports = data;
