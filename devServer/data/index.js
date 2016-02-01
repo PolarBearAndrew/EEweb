@@ -89,7 +89,8 @@ function processingPaper(papers){
 data.paper01 = processingPaper(data.paper01);
 data.paper04 = processingPaper(data.paper04);
 data.paper07 = processingPaper(data.paper07);
-data.paper08 = data.paper08;
-
+data.paper08 = data.paper08; // image
+data.paper11 = processingPaper(data.paper11);
+data.paper14 = processingPaper(data.paper14);
 
 module.exports = data;

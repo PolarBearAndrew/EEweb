@@ -33,4 +33,12 @@ router.get('/record_week8', (req, res, next) => {
 	res.render('record_week8', { data: data.paper08 });
 });
 
+router.get('/record_week11', (req, res, next) => {
+	res.render('record_week11', { data: data.paper11 });
+});
+
+router.get('/record_week14', (req, res, next) => {
+	res.render('record_week14', { data: data.paper14 });
+});
+
 module.exports = router;

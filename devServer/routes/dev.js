@@ -68,6 +68,7 @@ router.get('/_admin', (req, res, next) => {
 });
 
 router.get('/:page', (req, res, next) => {
+	console.log('use /:page');
   res.render(req.params.page.replace(/.html/, ''));
 });
 
