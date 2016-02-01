@@ -25,6 +25,10 @@ router.get('/record_week4', (req, res, next) => {
 	res.render('record_week4', { data: data.paper04 });
 });
 
+router.get('/record_week5', (req, res, next) => {
+	res.render('record_week5', { data: data.paper05 });
+});
+
 router.get('/record_week7', (req, res, next) => {
 	res.render('record_week7', { data: data.paper07 });
 });

@@ -14,6 +14,7 @@ var data = {
 	library : require('./library.js'),
 	paper01 : require('./paper01.js'),
 	paper04 : require('./paper04.js'),
+	paper05 : require('./paper05.js'),
 	paper07 : require('./paper07.js'),
 	paper08 : require('./paper08.js'),
 	paper11 : require('./paper11.js'),
@@ -59,6 +60,7 @@ records = records.map(function(record){
 
 records[1].num = data.paper01.length;
 records[4].num = data.paper04.length;
+records[5].num = data.paper04.length;
 records[7].num = data.paper07.length;
 records[8].num = data.paper08.length;
 records[11].num = data.paper11.length;
@@ -88,6 +90,7 @@ function processingPaper(papers){
 
 data.paper01 = processingPaper(data.paper01);
 data.paper04 = processingPaper(data.paper04);
+data.paper05 = processingPaper(data.paper05);
 data.paper07 = processingPaper(data.paper07);
 data.paper08 = processingPaper(data.paper08);
 data.paper11 = processingPaper(data.paper11);
