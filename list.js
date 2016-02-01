@@ -11,6 +11,7 @@ var list = [
   { page: 'record_week5', data: 'paper05' },
   { page: 'record_week7', data: 'paper07' },
   { page: 'record_week8', data: 'paper08' },
+  { page: 'record_week9', data: 'picture08' },
   { page: 'record_week11', data: 'paper11' },
   { page: 'record_week14', data: 'paper14' },
 ];
