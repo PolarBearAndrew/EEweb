@@ -16,6 +16,8 @@ var data = {
 	paper04 : require('./paper04.js'),
 	paper07 : require('./paper07.js'),
 	paper08 : require('./paper08.js'),
+	paper11 : require('./paper11.js'),
+	paper14 : require('./paper14.js'),
 	reading : require('./reading.js'),
 	schoolActivity : require('./schoolActivity.js'),
 	studentList : require('./studentList.js'),
@@ -59,6 +61,8 @@ records[1].num = data.paper01.length;
 records[4].num = data.paper04.length;
 records[7].num = data.paper07.length;
 records[8].num = data.paper08.length;
+records[11].num = data.paper11.length;
+records[14].num = data.paper14.length;
 
 data.records = {
 	'class' : records,

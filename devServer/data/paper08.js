@@ -1,4 +1,3 @@
-module.exports = data;
 
 //------------------------------------- 淡水照片 -------------------------------------//
 var data = [
@@ -43,3 +42,5 @@ var data = [
 		title: 'visitCampus_attendance'
 	},
 ];
+
+module.exports = data;
