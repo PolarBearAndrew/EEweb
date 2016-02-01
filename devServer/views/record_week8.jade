@@ -1,14 +1,50 @@
 extends container
 
+block styleSheet
+	link(rel="stylesheet", href="./asset/stylesheets/paper.css")
+
 block javaScript
-	script(src='./asset/javascripts/slideShow.js')
+	script(src='./asset/javascripts/paper.js')
 
 block content
 	include navBar
 	br
 	.ui.container
-		img#slideShow.ui.fluid.image(src='./asset/images/freshwater/water_1.jpg')
+		.ui.four.stackable.cards
+			- var keys = Object.keys(data)
+			- for( var k = 0; k < keys.length; k++ ) 
+				- var papers = data[keys[k]];
+				- for( var i = 0; i < papers.length; i++ )
+					- var paper = papers[i];
+					.card.red
+						.content
+							.header= paper.stuId[0].name
+						a.image
+							img.ui.image.small(src=paper.img style='max-height:410px')		
+						.content
+							.meta
+								span.right.floated.time= ( i + 1 ) + '/' + papers.length
+								span.category= paper.stuId[0].id + ' / 個人作業'
+						.ui.bottom.attached.button.pop(data-img=paper.img data-msg=paper.stuId[0].id+paper.stuId[0].name+(i+1)+'/'+papers.length )
+							i.print.icon
+							|       放大檢視
+
 	br
 	br
-	#data(data-slideShow=JSON.stringify(data))
 	include footer
+
+
+//- extends container
+//- 
+//- block javaScript
+//- 	script(src='./asset/javascripts/slideShow.js')
+//- 
+//- block content
+//- 	include navBar
+//- 	br
+//- 	.ui.container
+//- 		img#slideShow.ui.fluid.image(src='./asset/images/freshwater/water_1.jpg')
+//- 	br
+//- 	br
+//- 	#data(data-slideShow=JSON.stringify(data))
+//- 	include footer
