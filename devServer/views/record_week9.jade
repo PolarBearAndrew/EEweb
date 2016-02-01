@@ -5,7 +5,56 @@ block javaScript
 	script(src='./asset/javascripts/slideShow.js')
 
 block content
+
 	include navBar
+
+	.ui.container
+		.ui.three.column.grid.item.stackable
+			.column
+				h5.ui.center.aligned.icon.header(style='opacity:0.1;')
+					br
+					img.ui.small.circular.image(src='./asset/images/intro/1.jpg' style='width: 280px')
+					br
+					br
+					.description
+					| 豐富的閱讀內容與語言歷練
+					br
+					| 上百本學習型的英文小說給予學生選擇
+					br
+					| 學生豐富的學習機會與閱讀紀錄、豐碩的學習果
+					br
+					br
+					a(href='./library.html').ui.red.button 豐富的閱讀列表
+			.column
+				h5.ui.center.aligned.icon.header
+					br
+					img.ui.small.circular.image(src='./asset/images/intro/2.jpg' style='width: 280px')
+					br
+					br
+					.description
+					| 有趣的校外活動與實際練習
+					br
+					| 與外國人進行真正的面對面活動
+					br
+					| 透過參與活動引發學生學習英文的興趣
+					br
+					br
+					a(href='./').ui.orange.button 淡水英文洗禮行
+			.column
+				h5.ui.center.aligned.icon.header(style='opacity:0.1;')
+					br
+					img.ui.small.circular.image(src='./asset/images/intro/3.jpg' style='width: 280px')
+					br
+					br
+					.description
+					| 令人訝異又滿意的學習成果
+					br
+					| 經過一學期學生與老師的共同努力與奮鬥
+					br
+					| 每個小組都繳交出亮眼的學習成果與厚實的紀錄
+					br
+					br
+					a(href='./').ui.blue.button 學期學習成果展示
 	br
 	.ui.container
 		img#slideShow.ui.fluid.image(src='./asset/images/freshwater/water_1.jpg')
